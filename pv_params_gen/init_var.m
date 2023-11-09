@@ -1,0 +1,23 @@
+% pv panel
+Voc=21.6;%V
+Isc=6.11;%A
+Vmpp=18;
+Impp=5.55;
+Pmaxe=Vmpp*Impp;
+Ns=36;
+Np=1;
+% Rs=0.004;%ohm
+% Rshunt=1000;%ohm
+Ki=0.05/100;% short circuit temp coefficient (%)
+Kv=-0.35/100;% open circuit temp coefficient (%)
+% Voc=32.9;%V
+% Isc=8.21;%A
+% Vmpp=26.3;
+% Impp=7.61;
+% Pmaxe=200.143;
+% Ns=54;
+% Np=1;
+% % Rs=0.221/Ns;%ohm
+% % Rp=415/Np;%ohm
+% Ki=0.0032/Isc;% short circuit temp coefficient
+% Kv=-0.1230/Voc;% open circuit temp coefficient
